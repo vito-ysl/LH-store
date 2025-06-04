@@ -1,0 +1,314 @@
+/* Base variables */
+:root {
+    --ferrari-red: #A6051A;
+    --ferrari-yellow: #FFEB00;
+    --ferrari-white: #FFFFFF;
+    --ferrari-black: #111111;
+}
+
+/* Reset and Global styles */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: transparent;
+}
+
+body, html {
+    background-color: var(--ferrari-red);
+    color: var(--ferrari-yellow);
+    min-height: 100vh;
+    overflow-x: hidden; /* Previne scroll horizontal */
+}
+
+/* Header styles */
+.header {
+    background-color: var(--ferrari-black);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__title {
+    color: var(--ferrari-white);
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.header__nav-list {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.header__nav-link {
+    color: var(--ferrari-white);
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.header__nav-link:hover {
+    color: var(--ferrari-red);
+}
+
+/* Container styles */
+.conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    background-color: transparent; /* Remove background do container */
+}
+
+.conteiner__content {
+    flex: 1;
+}
+
+.conteiner__title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--ferrari-white);
+}
+
+.conteiner__text {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    color: var(--ferrari-white);
+}
+
+.conteiner__button {
+    padding: 1rem 2rem;
+    background-color: var(--ferrari-yellow);
+    color: var(--ferrari-black);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.conteiner__button:hover {
+    transform: scale(1.05);
+}
+
+.conteiner__image,
+.product-card__image,
+.about__images,
+.catalog__grid {
+    background-color: transparent;
+}
+
+.conteiner__img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: block; /* Removes potential image gap */
+}
+
+/* Login styles */
+.login-container {
+    max-width: 400px;
+    margin: 4rem auto;
+    padding: 2rem;
+    background-color: var(--ferrari-white);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 4rem; /* Espaçamento consistente no final */
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.login-title {
+    color: var(--ferrari-black);
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Form styles */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group label {
+    color: var(--ferrari-black);
+    font-size: 0.9rem;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+/* Contact styles */
+.contact-container {
+    max-width: 700px;
+    margin: 3rem auto;
+    padding: 1.5rem;
+    background-color: var(--ferrari-white);
+    border-radius: 8px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.08);
+    margin-bottom: 4rem; /* Espaçamento consistente no final */
+}
+
+.contact-title {
+    color: var(--ferrari-black);
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Catalog styles */
+.catalog {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    background-color: transparent;
+}
+
+.catalog__title {
+    text-align: center;
+    color: var(--ferrari-white);
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.catalog__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.product-card {
+    background-color: var(--ferrari-white);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 0; /* Remove any unwanted margins */
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card__image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-card__content {
+    padding: 1.5rem;
+}
+
+.product-card__team {
+    color: var(--ferrari-black);
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-card__year {
+    color: var(--ferrari-red);
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* About styles */
+.about {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    background-color: transparent;
+}
+
+.about__container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 4rem;
+    align-items: start;
+}
+
+.about__title {
+    color: var(--ferrari-white);
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.about__subtitle {
+    color: var(--ferrari-yellow);
+    font-size: 1.8rem;
+    margin: 2rem 0 1rem;
+}
+
+.about__text {
+    color: var(--ferrari-white);
+    line-height: 1.6;
+}
+
+.about__images {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.about__img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.about__img:hover {
+    transform: scale(1.02);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .conteiner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .conteiner__image {
+        order: -1;
+    }
+
+    .about__container {
+        grid-template-columns: 1fr;
+    }
+
+    /* Garantir que containers responsivos mantenham o fundo transparente */
+    .conteiner,
+    .about,
+    .catalog {
+        background-color: transparent;
+    }
+}
