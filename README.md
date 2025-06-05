@@ -5,12 +5,12 @@ Lewis Hamilton é um dos maiores pilotos da história da Fórmula 1, conhecido p
 
 ## Biografia
 
-![Lewis Hamilton 1](/imagens/hamilton1.png)
+![Lewis Hamilton 1](/imagens/hamilton1.jpeg)
 Nascido em 7 de janeiro de 1985, em Stevenage, Inglaterra, Hamilton começou sua carreira no kart aos 8 anos. Em 2007, estreou na Fórmula 1 pela McLaren, tornando-se rapidamente destaque no esporte.
 
 ## Conquistas
 
-![Lewis Hamilton 2](/imagens/hamilton2.png)
+![Lewis Hamilton 2](/imagens/hamilton2.jpeg)
 - **Títulos Mundiais:** 7 (empatado com Michael Schumacher)
 - **Vitórias:** Mais de 100 Grandes Prêmios vencidos
 - **Poles:** Recordista em pole positions na F1
@@ -19,7 +19,7 @@ Nascido em 7 de janeiro de 1985, em Stevenage, Inglaterra, Hamilton começou sua
 ## Destaques da Carreira
 
 
-![Lewis Hamilton 3](/imagens/hamilton3.png)
+![Lewis Hamilton 3](/imagens/hamilton3.jpeg)
 - Primeiro piloto negro da história da F1.
 - Campeão mundial em 2008, 2014, 2015, 2017, 2018, 2019 e 2020.
 - Reconhecido por sua habilidade em pista molhada e ultrapassagens decisivas.
