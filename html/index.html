@@ -1,47 +1,98 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="../assets/style.css">
+    <title>Lewis Hamilton - Lenda da Fórmula 1</title>
 </head>
-
 <body>
     <header class="header">
-        <div class="header__logo">
-            <h1 class="header__title">LH store</h1>
+        <div class="header__container">
+            <div class="header__logo">LH44</div>
+            <h1 class="header__title">Lewis Hamilton - Lenda da Fórmula 1</h1>
         </div>
-        <nav class="header__nav">
-            <ul class="header__nav-list">
-                <li class="header__nav-item"><a href="index.html" class="header__nav-link">Início</a></li>
-                <li class="header__nav-item"><a href="/html/roupas.html" class="header__nav-link">Roupas</a></li>
-                <li class="header__nav-item"><a href="/html/sobre.html" class="header__nav-link">Sobre</a></li>
-                <li class="header__nav-item"><a href="/html/contato.html" class="header__nav-link">Contato</a></li>
-                <li class="header__nav-item"><a href="/html/login.html" class="header__nav-link">Login</a></li>
-            </ul>
-        </nav>
     </header>
 
-    <div class="main-wrapper">
-        <div class="conteiner">
-            <div class="conteiner__content">
-                <h2 class="conteiner__title">Bem-vindo à LH Store</h2>
-                <p class="conteiner__text">Aqui você encontra as melhores roupas para o seu estilo.</p>
-                <button class="conteiner__button">Ver produtos</button>
+    <main class="main">
+        <section class="hero">
+            <div class="hero__content">
+                <h2 class="hero__title">O Maior Campeão da Era Moderna</h2>
+                <div class="hero__text">
+                    <p>Lewis Hamilton é um piloto britânico de Fórmula 1 que revolucionou o esporte. Com sete títulos mundiais, ele igualou o recorde de Michael Schumacher e estabeleceu novos padrões de excelência.</p>
+                    <p>Sua jornada começou na McLaren em 2007, onde conquistou seu primeiro título em 2008. Na Mercedes, Hamilton dominou a era híbrida da F1, vencendo seis campeonatos entre 2014 e 2020.</p>
+                </div>
             </div>
-            <div class="conteiner__image">
-                <img src="/imagens/lhicon.avif" alt="Roupas" class="conteiner__img">
+        </section>
+        <section class="hero">
+            <div class="hero__content">
+                <h2 class="hero__title">Pioneirismo na Fórmula 1</h2>
+                <div class="hero__text">
+                    <p>Lewis Hamilton fez história ao se tornar o primeiro piloto negro a competir na Fórmula 1. Sua presença quebrou barreiras e inspirou uma nova geração de fãs e pilotos ao redor do mundo.</p>
+                    <p>Além de seu talento nas pistas, Hamilton é reconhecido por seu ativismo em prol da diversidade e inclusão no automobilismo.</p>
+                    <p>Fora das corridas, ele é engajado em causas ambientais e defensor dos direitos dos animais, promovendo um estilo de vida sustentável e vegano.</p>
+                    <p>Hamilton também utiliza sua influência para apoiar projetos sociais, incentivar jovens talentos e lutar contra o racismo, tornando-se uma voz importante dentro e fora da Fórmula 1.</p>
+                </div>
             </div>
-        </div>
-    </div>
-</body>
-    <footer>
-         <div class="conteiner__content">
-                <h2 class="conteiner__title">Bem-vindo à LH Store</h2>
-                <p class="conteiner__text">Aqui você encontra as melhores roupas para o seu estilo.</p>
-                <button class="conteiner__button">Ver produtos</button>
+        </section>
+
+        <section class="achievements">
+            <h2 class="achievements__title">Conquistas Históricas</h2>
+            <div class="achievements__grid">
+                <div class="achievement-card">
+                    <span class="achievement-card__number">7</span>
+                    <p class="achievement-card__text">Títulos Mundiais</p>
+                </div>
+                <div class="achievement-card">
+                    <span class="achievement-card__number">103</span>
+                    <p class="achievement-card__text">Vitórias</p>
+                </div>
+                <div class="achievement-card">
+                    <span class="achievement-card__number">104</span>
+                    <p class="achievement-card__text">Pole Positions</p>
+                </div>
             </div>
+        </section>
+
+        <section class="gallery">
+            <h2 class="gallery__title">Galeria</h2>
+            <div class="gallery__grid">
+                <img src="/imagens/hamilton1.jpeg" alt="Hamilton 1" class="gallery__img">
+                <img src="/imagens/hamilton2.jpeg" alt="Hamilton 2" class="gallery__img">
+                <img src="/imagens/hamilton3.jpeg" alt="Hamilton 3" class="gallery__img">
+            </div>
+        </section>
+
+        <section class="comments">
+            <div class="like-section">
+                <button class="like-button" id="likeButton">
+                    <span class="like-button__icon">❤️</span>
+                    <span class="like-button__count" id="likeCount">0</span>
+                </button>
+            </div>
+
+            <form class="comment-form" id="commentForm">
+                <h2 class="comment-form__title">Deixe seu comentário</h2>
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="comment">Comentário:</label>
+                    <textarea id="comment" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Enviar</button>
+            </form>
+
+            <div class="comments-list" id="commentsList"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Trabalho landing-page feito por vitor</p>
     </footer>
+
+    <script src="/assets/main.js"></script>
+</body>
 </html>
+
