@@ -1,5 +1,7 @@
 # Lewis Hamilton
 
+![Capacete de Lewis Hamilton](/capacete.png)
+
 Lewis Hamilton é um dos maiores pilotos da história da Fórmula 1, conhecido por seu talento excepcional, conquistas recordes e ativismo fora das pistas.
 
 ## Biografia
@@ -29,4 +31,3 @@ Hamilton é ativista em causas como igualdade racial, diversidade no automobilis
 - [Lewis Hamilton na Wikipedia](https://pt.wikipedia.org/wiki/Lewis_Hamilton)
 
 ---
-> *Este documento apresenta um resumo sobre Lewis Hamilton. Para informações detalhadas, consulte as fontes oficiais.*
