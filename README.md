@@ -4,10 +4,14 @@
 
 Lewis Hamilton é um dos maiores pilotos da história da Fórmula 1, conhecido por seu talento excepcional, conquistas recordes e ativismo fora das pistas.
 
-## Biografia
+Biografia
 Nascido em 7 de janeiro de 1985, em Stevenage, Inglaterra, Hamilton começou sua carreira no kart aos 8 anos. Em 2007, estreou na Fórmula 1 pela McLaren, tornando-se rapidamente destaque no esporte.
 
-## Conquistas
+
+
+
+
+Conquistas
 
 <img src="/imagens/hamilton2.jpeg" align="left" width="300" style="margin-right: 20px; margin-bottom: 10px;">
 
